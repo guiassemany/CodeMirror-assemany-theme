@@ -1,5 +1,7 @@
 # CodeMirror-assemany-theme
 
+![Assemany theme Image](https://raw.github.com/guiassemany/CodeMirror-assemany-theme/master/img/assemany-theme.png)
+
 Eu fiz esse tema porque eu não consegui encontrar nenhum tema legal no Scriptcase!
 I made this theme because I could not find a better one on Scriptcase!
 
