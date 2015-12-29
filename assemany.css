@@ -1,0 +1,52 @@
+/*
+    Name: Assemany
+    Author: Guilherme Assemany (http://github.com/guiassemany)
+    Original assemany color scheme by Guilherme Assemany (https://github.com/guiassemany/CodeMirror-assemany-theme)
+*/
+
+.cm-s-assemany.CodeMirror, .cm-s-assemany .CodeMirror-gutters {
+  background-color: #282a36 !important;
+  color: #f8f8f2 !important;
+  border: none;
+}
+.cm-s-assemany .CodeMirror-gutters { color: #282a36; }
+.cm-s-assemany .CodeMirror-cursor { border-left: solid thin #f8f8f0; }
+.cm-s-assemany .CodeMirror-linenumber { color: #6D8A88; }
+.cm-s-assemany.CodeMirror-focused div.CodeMirror-selected { background: rgba(255, 255, 255, 0.10); }
+.cm-s-assemany .CodeMirror-line::selection, .cm-s-assemany .CodeMirror-line > span::selection, .cm-s-assemany .CodeMirror-line > span > span::selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-assemany .CodeMirror-line::-moz-selection, .cm-s-assemany .CodeMirror-line > span::-moz-selection, .cm-s-assemany .CodeMirror-line > span > span::-moz-selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-assemany span.cm-comment { color: #6272a4; }
+.cm-s-assemany span.cm-string, .cm-s-assemany span.cm-string-2 { color: #f1fa8c; }
+.cm-s-assemany span.cm-number { color: #bd93f9; }
+.cm-s-assemany span.cm-variable { color: #50fa7b; }
+.cm-s-assemany span.cm-variable-2 { color: white; }
+.cm-s-assemany span.cm-def { color: #ffb86c; }
+.cm-s-assemany span.cm-keyword { color: #ff79c6; }
+.cm-s-assemany span.cm-operator { color: #ff79c6; }
+.cm-s-assemany span.cm-keyword { color: #ff79c6; }
+.cm-s-assemany span.cm-atom { color: #bd93f9; }
+.cm-s-assemany span.cm-meta { color: #f8f8f2; }
+.cm-s-assemany span.cm-tag { color: #ff79c6; }
+.cm-s-assemany span.cm-attribute { color: #50fa7b; }
+.cm-s-assemany span.cm-qualifier { color: #50fa7b; }
+.cm-s-assemany span.cm-property { color: #66d9ef; }
+.cm-s-assemany span.cm-builtin { color: #50fa7b; }
+.cm-s-assemany span.cm-variable-3 { color: #50fa7b; }
+
+.cm-s-assemany .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
+.cm-s-assemany .CodeMirror-matchingbracket { display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  color: rgba(255,255,255,1);
+  text-decoration: normal;
+  text-align: center;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1); }
